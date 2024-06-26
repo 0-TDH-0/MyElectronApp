@@ -1,0 +1,19 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "My App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0-TDH-0/MyElectronApp.git"
+  },
+  "author": "Thomas Hale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0-TDH-0/MyElectronApp/issues"
+  },
+  "homepage": "https://github.com/0-TDH-0/MyElectronApp#readme"
+}
