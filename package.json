@@ -2,8 +2,9 @@
   "name": "myapp",
   "version": "1.0.0",
   "description": "My App",
-  "main": "index.js",
+  "main": "mainScript.js",
   "scripts": {
+    "start": "electron mainScript.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/0-TDH-0/MyElectronApp/issues"
   },
-  "homepage": "https://github.com/0-TDH-0/MyElectronApp#readme"
+  "homepage": "https://github.com/0-TDH-0/MyElectronApp#readme",
+  "dependencies": {
+    "electron": "^31.1.0",
+    "react": "^18.3.1"
+  }
 }
