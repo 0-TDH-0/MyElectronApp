@@ -1,10 +1,9 @@
 // Electron main script
-
 const path = require("path");
 const { app, BrowserWindow } = require("electron");
 
 function createMainWindow() {
-// Create a new browser window
+    // Create a new browser window
     const window = new BrowserWindow({
     width: 800,
     height: 600
@@ -18,6 +17,7 @@ app.whenReady().then(() => {
     createMainWindow();
 });
 
+// Quit the app
 app.on("window-all-closed", () => {
-app.quit();
+    app.quit();
 });
